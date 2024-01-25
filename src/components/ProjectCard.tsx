@@ -25,7 +25,7 @@ const ProjectCard: FC<ProjectCardProps> = ({ project: { name, github, live, tech
         <div className="w-full h-full relative rounded-lg overflow-hidden bg-background-light">
           <motion.div
             className='w-full h-full flex justify-center'
-            whileHover={{ scale: 0.95, rotate: 2 }}
+            whileHover={{ scale: 0.95 }}
             transition={{ type: "tween", duration: 0.2 }}
           >
             <img 
