@@ -22,7 +22,7 @@ const ProjectCard: FC<ProjectCardProps> = ({ project: { name, github, live, tech
   return (
     <FadeUp>
       <div className='w-full h-fit relative space-y-6'>
-        <div className="w-full h-full relative rounded-lg overflow-hidden bg-background-light">
+        <div className="border-[2px] border-gray-800 w-full h-full relative rounded-lg overflow-hidden bg-background-light">
           <motion.div
             className='w-full h-full flex justify-center'
             whileHover={{ scale: 0.95 }}
@@ -31,7 +31,8 @@ const ProjectCard: FC<ProjectCardProps> = ({ project: { name, github, live, tech
             <img 
               src={imageURL}
               alt={name}
-              className='w-[100%]  object-cover rounded-t-lg'
+              className='w-[100%] object-cover rounded-t-lg cursor-pointer'
+              onClick={() =>window.open(live, '_blank')}
             />
           </motion.div>
         </div>
@@ -54,7 +55,7 @@ const ProjectCard: FC<ProjectCardProps> = ({ project: { name, github, live, tech
             <p className='text-base text-accent font-normal'>{tech}</p>
           </Reveal>
           <Reveal>
-            <p className='text-base md:text-lg font-extralight'>{about}</p>
+            <p className='text-xs sm:text-sm md:text-lg font-extralight'>{about}</p>
           </Reveal>
         </div>
       </div>

@@ -14,7 +14,7 @@ const Projects = () => {
             </h2>
           </Reveal>
         </div>
-        <div className="grid md:grid-cols-1 gap-4 md:gap-16 xl:gap-32">
+        <div className="grid md:grid-cols-2 gap-12">
           {data.map(project => <ProjectCard key={project.id} project={project} />)}
         </div>
       </div>

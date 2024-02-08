@@ -11,7 +11,7 @@ const others = ['Problem Solving', 'Management', 'Investing'];
 
 const About = () => {
   return (
-    <section id="about" className="w-full h-fit p-6 sm:px-12 sm:py-8 md:px-20 lg:py-10 lg:px-40 xl:py-12 xl:px-60">
+    <section id="about" className="w-full h-fit p-6 sm:px-12 sm:py-8 md:px-20 lg:py-12 lg:px-40 xl:py-12 xl:px-60">
       <div className="w-full h-fit space-y-4 md:space-y-8">
         <div className="flex items-center gap-x-4">
           <Reveal>
@@ -68,7 +68,7 @@ const About = () => {
               <Reveal>
                 <div className="flex items-center gap-x-4">
                   <Icons.briefcase className="w-6 h-6 text-accent" />
-                  <h6 className="text-2xl font-bold">
+                  <h6 className="text-xl md:text-2xl font-bold">
                     Programming Languages
                   </h6>
                 </div>
@@ -87,7 +87,7 @@ const About = () => {
               <Reveal>
                 <div className="flex items-center gap-x-4">
                   <Icons.smile className="w-6 h-6 text-accent" />
-                  <h6 className="text-2xl font-bold">
+                  <h6 className="text-xl md:text-2xl font-bold">
                     Framework/Technologies
                   </h6>
                 </div>
@@ -106,7 +106,7 @@ const About = () => {
               <Reveal>
                 <div className="flex items-center gap-x-4">
                   <Icons.smile className="w-6 h-6 text-accent" />
-                  <h6 className="text-2xl font-bold">
+                  <h6 className="text-xl md:text-2xl font-bold">
                     Others
                   </h6>
                 </div>

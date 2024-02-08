@@ -4,7 +4,7 @@ import data from "../content/exp";
 
 const Exp = () => {
   return (
-    <section id="exp" className="w-full h-fit px-6 py-4 sm:px-12 sm:py-6 md:px-20 lg:py-8 lg:px-40 xl:py-10 xl:px-60">
+    <section id="exp" className="w-full min-h-screen px-6 py-4 sm:px-12 sm:py-6 md:px-20 lg:py-8 lg:px-40 xl:py-10 xl:px-60 grid place-items-center" >
       <div className="w-full h-fit space-y-4 md:space-y-8">
         <div className="flex items-center gap-x-4">
           <Reveal>

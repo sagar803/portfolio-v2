@@ -3,6 +3,8 @@ import hello from "../assets/hello.jpg";
 import peer from "../assets/peer.jpg";
 import lango from "../assets/lango.jpg";
 import landing from "../assets/landing.jpg";
+import gym from "../assets/gym.png";
+import rickmorty from "../assets/rickmorty.png";
 
 const data = [
   {
@@ -45,10 +47,28 @@ const data = [
     id: 5,
     name: "Aiello",
     github: "https://github.com/sagar803/",
-    live: "https://journeygenie.vercel.app/",
+    live: "https://aiello.netlify.app/",
     tech: "React.js - Node JS - OpenAI",
     about: "Introducing Aiello, your AI buddy on a SaaS platform offering Natural Language Processing and creative capabilities. Engage in conversational Q&A and unleash personalized image or music generation with ease.",
     imageURL: aiello,
+  },
+  {
+    id: 6,
+    name: "Gym",
+    github: "https://github.com/sagar803/https://github.com/sagar803/gym-ts-tailwind",
+    live: "https://gym-ts-tailwind.netlify.app",
+    tech: "React, TypeScript, Tailwind CSS",
+    about: "Dynamic gym website crafted with React and TypeScript, ensuring a robust and type-safe codebase. Enhanced with sleek UI using Tailwind CSS for a modern and responsive user experience.",
+    imageURL: gym,
+  },
+  {
+    id: 7,
+    name: "Rick-Morty Wiki",
+    github: "https://github.com/sagar803/rick-and-morty",
+    live: "https://rickmorty-neon.vercel.app/",
+    tech: "React JS",
+    about: "Dive into the dynamic world of React JS with my front-end project, showcasing an immersive Rick and Morty Wikipedia experience. Explore characters, episodes, and trivia seamlessly through a visually engaging and user-friendly interface.",
+    imageURL: rickmorty,
   },
 
 ];
