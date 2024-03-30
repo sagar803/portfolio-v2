@@ -7,15 +7,7 @@ import gym from "../assets/gym.png";
 import rickmorty from "../assets/rickmorty.png";
 
 const data = [
-  {
-    id: 1,
-    name: "Landing",
-    github: "https://github.com/sagar803/",
-    live: "https://hirequotient-task1.vercel.app/",
-    tech: "React JS",
-    about: "Introducing a captivating UI design. Navigate effortlessly and experience digital elegance. Your seamless journey begins here.",
-    imageURL: landing,
-  },
+
   {
     id: 2,
     name: "Hello Social Media",
@@ -74,3 +66,14 @@ const data = [
 ];
 
 export default data;
+/*
+{
+  id: 1,
+  name: "Landing",
+  github: "https://github.com/sagar803/",
+  live: "https://hirequotient-task1.vercel.app/",
+  tech: "React JS",
+  about: "Introducing a captivating UI design. Navigate effortlessly and experience digital elegance. Your seamless journey begins here.",
+  imageURL: landing,
+},
+*/
