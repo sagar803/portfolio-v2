@@ -2,7 +2,7 @@ import aiello from "../assets/aiello.jpg";
 import hello from "../assets/hello.jpg";
 import peer from "../assets/peer.jpg";
 import lango from "../assets/lango.jpg";
-import landing from "../assets/landing.jpg";
+//import landing from "../assets/landing.jpg";
 import gym from "../assets/gym.png";
 import rickmorty from "../assets/rickmorty.png";
 

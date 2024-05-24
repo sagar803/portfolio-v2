@@ -16,7 +16,7 @@ const Contact = () => {
           </p>
         </Reveal>
         <Reveal>
-          <a href="mailto:shrideeppakhare2005@gmail.com" className="group flex items-center gap-x-2">
+          <a href="mailto:sagarchawla83@gmail.com" className="group flex items-center gap-x-2">
             <Icons.mail className="w-6 h-6" />
             <span className="text-base md:text-lg lg:text-xl font-normal group-hover:underline underline-offset-2">
               sagarchawla83@gmail.com
