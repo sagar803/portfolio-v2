@@ -1,5 +1,5 @@
 import { Icons } from "./Icons";
-import resume from "../pdf/resume.pdf";
+// import resume from "../pdf/resume.pdf";
 
 const SecondaryMenu = () => {
   return (
@@ -16,9 +16,9 @@ const SecondaryMenu = () => {
         </a>
       </div>
       <div>
-        <a href={resume} target="_blank" className="w-fit h-10 px-6 grid place-items-center text-sm text-accent font-normal uppercase tracking-wider border border-accent rounded-md hover:bg-[hsl(159,89%,6%)]">
+        {/* <a href={resume} target="_blank" className="w-fit h-10 px-6 grid place-items-center text-sm text-accent font-normal uppercase tracking-wider border border-accent rounded-md hover:bg-[hsl(159,89%,6%)]">
           Resume
-        </a>
+        </a> */}
       </div>
     </header>
   );

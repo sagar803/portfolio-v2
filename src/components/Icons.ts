@@ -7,8 +7,10 @@ import {
   Briefcase,
   Smile,
   Mail,
-  ExternalLink
+  ExternalLink,
+  PhoneCall  
 } from "lucide-react";
+
 
 export const Icons = {
   instagram: Instagram,
@@ -20,4 +22,5 @@ export const Icons = {
   smile: Smile,
   mail: Mail,
   externalLink: ExternalLink,
+  phoneCall: PhoneCall,
 };

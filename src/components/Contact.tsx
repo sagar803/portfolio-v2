@@ -23,6 +23,14 @@ const Contact = () => {
             </span>
           </a>
         </Reveal>
+        <Reveal>
+          <div className="flex">
+            <Icons.phoneCall className="w-6 h-6" />
+              <span className="text-base md:text-lg lg:text-xl font-normal group-hover:underline underline-offset-2">
+                {"+91 9893490505"}
+              </span>
+          </div>
+        </Reveal>
       </div>
     </section>
   );

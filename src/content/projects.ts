@@ -5,6 +5,7 @@ import lango from "../assets/lango.jpg";
 //import landing from "../assets/landing.jpg";
 import gym from "../assets/gym.png";
 import rickmorty from "../assets/rickmorty.png";
+import expressions from "../assets/expressions.png";
 
 const data = [
 
@@ -13,8 +14,8 @@ const data = [
     name: "Hello Social Media",
     github: "https://github.com/sagar803/",
     live: "https://hello-social-media.netlify.app/",
-    tech: "React.js - Node.js - Express.js",
-    about: "Developed a dynamic social media app using React.js and Material UI, featuring user profiles, friend connections, and secure content sharing. Implemented JWT for robust user authentication, ensuring a seamless and secure experience.",
+    tech: "React.js - Node.js - Express.js - socket.io",
+    about: "A social media application with features like user profiles, friend connections, messaging, content sharing (photos), user search, and account deactivation, providing a comprehensive and interactive platform for users to connect and engage",
     imageURL: hello,
   },
   {
@@ -62,7 +63,15 @@ const data = [
     about: "Dive into the dynamic world of React JS with my front-end project, showcasing an immersive Rick and Morty Wikipedia experience. Explore characters, episodes, and trivia seamlessly through a visually engaging and user-friendly interface.",
     imageURL: rickmorty,
   },
-
+  {
+    id: 8,
+    name: "Expressions",
+    github: "https://github.com/sagar803",
+    live: "https://hume-expression.vercel.app/",
+    tech: "Next JS - Hume API ",
+    about: " app that analyzes audio or video inputs to detect and interpret emotional expressions in real-time, providing insights into mood and tone. Perfect for enhancing communication and understanding emotional cues.",
+    imageURL: expressions,
+  },
 ];
 
 export default data;
